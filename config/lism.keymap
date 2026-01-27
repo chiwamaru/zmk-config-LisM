@@ -51,13 +51,13 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q                   &kp W                   &kp E         &kp R           &kp T                                         &kp Y         &kp U           &kp I         &kp O       &kp P
-&kp A                   &mt LALT S              &mt LSHIFT D  &mt LGUI F      &mt LCTRL G                                   &mt RCTRL H   &mt RGUI J      &mt RSHIFT K  &mt RALT L  &kp MINUS
-&kp Z                   &kp X                   &kp C         &kp V           &kp B                                         &kp N         &kp M           &kp COMMA     &kp DOT     &kp SLASH
-&mt LEFT_CONTROL LANG2  &mt LEFT_SHIFT AT_SIGN  &lt 2 TAB     &kp LS(LG(N4))  &lt 4 ESCAPE  &lt 3 SPACE    &lt 1 BACKSPACE  &lt 2 RETURN  &kp LS(LG(N4))  &kp ASTERISK  &kp PLUS    &mt LEFT_COMMAND LANG1
+&kp Q                   &kp W                   &kp E         &kp R       &kp T                                         &kp Y         &kp U       &kp I         &kp O       &kp P
+&kp A                   &mt LALT S              &mt LSHIFT D  &mt LGUI F  &mt LCTRL G                                   &mt RCTRL H   &mt RGUI J  &mt RSHIFT K  &mt RALT L  &kp MINUS
+&kp Z                   &kp X                   &kp C         &kp V       &kp B                                         &kp N         &kp M       &kp COMMA     &kp DOT     &kp SLASH
+&mt LEFT_CONTROL LANG2  &mt LEFT_SHIFT AT_SIGN  &lt 2 TAB     &mkp LCLK   &lt 4 ESCAPE  &lt 3 SPACE    &lt 1 BACKSPACE  &lt 2 RETURN  &none       &kp ASTERISK  &kp PLUS    &mt LEFT_COMMAND LANG1
             >;
 
-            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
         };
 
         layer_1 {
@@ -69,7 +69,7 @@
 &trans    &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &kp DOWN       &trans        &kp LG(W)
             >;
 
-            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
         };
 
         layer_2 {
@@ -81,7 +81,7 @@
 &kp SQT           &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &kp PERCENT    &kp DOLLAR  &kp HASH        &kp DOUBLE_QUOTES  &kp KP_NUMBER_0  &kp DOT    &kp EQUAL
             >;
 
-            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
         };
 
         layer_3 {
