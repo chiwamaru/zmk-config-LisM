@@ -75,10 +75,10 @@
         layer_2 {
             display-name = "Number Layer";
             bindings = <
-&kp AT_SIGN       &kp F7     &kp F8                &kp F9                 &kp F10                                   &kp UNDERSCORE  &kp EXCLAMATION    &kp KP_N7        &kp KP_N8  &kp KP_N9
-&kp ASTERISK      &kp F4     &kp F5                &kp F6                 &kp F11                                   &mkp MB1        &kp BACKSLASH      &kp KP_N4        &kp KP_N5  &kp KP_N6
-&kp LEFT_BRACKET  &kp F1     &kp F2                &kp F3                 &kp F12                                   &mkp MB2        &kp PIPE           &kp KP_N1        &kp KP_N2  &kp KP_N3
-&kp SQT           &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &kp PERCENT    &kp DOLLAR  &kp HASH        &kp DOUBLE_QUOTES  &kp KP_NUMBER_0  &kp DOT    &kp EQUAL
+&kp AMPERSAND  &kp F7     &kp F8             &kp F9  &kp F10                             &kp UNDERSCORE     &kp EXCLAMATION  &kp KP_N7        &kp KP_N8  &kp KP_N9
+&kp ASTERISK   &kp F4     &kp F5             &kp F6  &kp F11                             &kp LEFT_BRACKET   &kp BACKSLASH    &kp KP_N4        &kp KP_N5  &kp KP_N6
+&kp PERCENT    &kp F1     &kp F2             &kp F3  &kp F12                             &kp RIGHT_BRACKET  &kp PIPE         &kp KP_N1        &kp KP_N2  &kp KP_N3
+&kp SQT        &kp TILDE  &kp DOUBLE_QUOTES  &none   &mkp LCLK  &mkp RCLK    &kp DOLLAR  &kp HASH           &none            &kp KP_NUMBER_0  &kp DOT    &kp EQUAL
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
