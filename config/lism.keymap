@@ -63,10 +63,10 @@
         layer_1 {
             display-name = "Mouse Layer";
             bindings = <
-&trans    &trans  &trans  &trans  &trans                    &kp SPACE     &kp RG(LEFT)  &kp RG(RIGHT)  &mkp MB3      &trans
-&mkp MB5  &trans  &trans  &trans  &trans                    &mkp MB1      &mkp MB2      &mkp MB2       &msc SCRL_UP  &msc SCRL_DOWN
-&mkp MB4  &trans  &trans  &trans  &trans                    &kp LG(DOWN)  &kp LEFT      &kp UP         &kp RIGHT     &trans
-&trans    &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &kp DOWN       &trans        &kp LG(W)
+&trans    &trans  &trans  &trans  &trans                        &kp SPACE     &kp RG(LEFT)  &kp RG(RIGHT)  &mkp MB3      &trans
+&mkp MB5  &trans  &trans  &trans  &trans                        &mkp MB1      &mkp MB2      &mkp MB2       &msc SCRL_UP  &msc SCRL_DOWN
+&mkp MB4  &trans  &trans  &trans  &trans                        &kp LG(DOWN)  &kp LEFT      &kp UP         &kp RIGHT     &trans
+&trans    &trans  &trans  &trans  &mkp MB1  &mkp MB2    &trans  &trans        &trans        &kp DOWN       &trans        &kp LG(W)
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
@@ -75,10 +75,10 @@
         layer_2 {
             display-name = "Number Layer";
             bindings = <
-&kp AMPERSAND  &kp F7     &kp F8             &kp F9  &kp F10                           &kp UNDERSCORE     &kp EXCLAMATION  &kp KP_N7        &kp KP_N8  &kp KP_N9
-&kp ASTERISK   &kp F4     &kp F5             &kp F6  &kp F11                           &kp LEFT_BRACKET   &kp BACKSLASH    &kp KP_N4        &kp KP_N5  &kp KP_N6
-&kp PERCENT    &kp F1     &kp F2             &kp F3  &kp F12                           &kp RIGHT_BRACKET  &kp PIPE         &kp KP_N1        &kp KP_N2  &kp KP_N3
-&kp SQT        &kp TILDE  &kp DOUBLE_QUOTES  &none   &mkp MB1  &mkp MB2    &kp DOLLAR  &kp HASH           &none            &kp KP_NUMBER_0  &kp DOT    &kp EQUAL
+&kp AMPERSAND  &kp F7     &kp F8             &kp F9  &kp F10                            &kp UNDERSCORE     &kp EXCLAMATION  &kp KP_N7        &kp KP_N8  &kp KP_N9
+&kp ASTERISK   &kp F4     &kp F5             &kp F6  &kp F11                            &kp LEFT_BRACKET   &kp BACKSLASH    &kp KP_N4        &kp KP_N5  &kp KP_N6
+&kp PERCENT    &kp F1     &kp F2             &kp F3  &kp F12                            &kp RIGHT_BRACKET  &kp PIPE         &kp KP_N1        &kp KP_N2  &kp KP_N3
+&kp SQT        &kp TILDE  &kp DOUBLE_QUOTES  &none   &kp LEFT  &kp RIGHT    &kp DOLLAR  &kp HASH           &none            &kp KP_NUMBER_0  &kp DOT    &kp EQUAL
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
